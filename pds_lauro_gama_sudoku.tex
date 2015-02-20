@@ -257,14 +257,8 @@
 
 \chapter*{\vspace*{3.4cm}INTRODUÇÃO}
 \addcontentsline{toc}{section}{INTRODUÇÃO}
-A prevenção de descargas eletroestáticas é uma preocupação constante durante a produção de equipamentos eletrônicos. Tais cargas são responsáveis por falhas e danos aos produtos produzidos e representam prejuízos econômicos consideráveis.
-
-Essas falhas são originadas da degradação ou dano a barreiras dielétricas dos componentes eletrônicos por descargas acima do especificado para uso no componente.
-
-A forma mais eficiente de proteger produtos desse problema é a prevenção de sua ocorrência. Tal prevenção ocorre pelo monitoramento constante de acumulo de cargas geradoras de descargas e a neutralização do agente gerador.
-Esse monitoramento pode ser realizado pela constante medição de cargas em diversos pontos e o envio do resultado dessas medições para um sistema computacional que fará a analise e sinalização desses resultados. 
-
-O presente projeto tem como objetivo o desenvolvimento de um sistema de monitoramento de descargas eletroestáticas em linhas de produção de eletrônicos através da medição de cargas eletroestáticas em pessoas e objetos.
+O jogo sudoku é um dos mais populares passatempos matemáticos de todos os tempos. O seu objetivo é o preenchimento com números de uma matriz de 9x9 elementos de forma que cada linha, coluna e submatriz de 3x3 elementos contenha todos os dígitos entre 1 e 9.
+A resolução desse jogo por um ser humano envolve 
 
 
 % ----------------------------------------------------------
@@ -274,87 +268,12 @@ O presente projeto tem como objetivo o desenvolvimento de um sistema de monitora
 %\chapter*{\vspace*{3.4cm}PROJETO DE PESQUISA}
 
 \vspace{24pt}
-\section{TEMA}
-DESCARGAS ELÉTRICAS
-\section{DELIMITAÇÃO DO TEMA}
-Monitoramento de descargas eletroestáticas em linhas de produção de eletrônicos.
-\section{FORMULAÇÃO DO PROBLEMA}
-A carência de um sistema que monitore cargas eletroestáticas durante o processo de produção afim de evitar descargas eletroestáticas que possam danificar componentes eletrônicos.  
-\section{HIPÓTESE}
-É possível a criação de um equipamento que meça a quantidade de cargas estáticas em pessoas e equipamentos envolvidos no processo de manufatura de eletroeletrônicos e dissipe essas cargas afim de prevenir a ocorrência de descargas eletroestáticas utilizando módulos microcontroladores e transmissão via rede de radio \textit{wifi}. 
-\section{OBJETIVO}
-Estudar a arquitetura de um sistema que monitore as cargas estáticas em pessoas e equipamentos envolvidos no processo de manufatura de eletroeletrônicos.
 
-Projetar um protótipo do sistema que monitore postos de trabalho onde o controle de cargas eletroestáticas seja necessário, indicando quando o objeto sob analise está acumulando cargas estáticas e transmita essa informação via rede de dados \textit{wifi} a um servidor de dados que sinalize e armazene essas informações para posterior analise.
-
-Serão utilizados para o desenvolvimento do protótipo as instalações e recursos próprios do pesquisador.
-\section{JUSTIFICATIVA}
-
-\subsection{Justificativa Acadêmica}
-O estudo do monitoramento de cargas eletroestáticas permite o aprofundamento da pesquisa de monitoramento remoto, eletrônica e sistemas embarcados.
-\subsection{Justificativa Social}
-Sistemas de monitoramento podem ser utilizados nos mais diversos processos produtivos para assegurar normas de segurança e aumentar a eficiência da linha.
-A utilização desse sistema irá diminuir a incidência de descargas eletroestáticas durante o processo de manufatura diminuindo perdas econômicas e logísticas.
 \section{REFERENCIAL TEÓRICO}
 
-\subsection{DESCARGA ELETROESTÁTICA}
-A descarga eletrostática (ESD, do inglês \textit{electrostatic
-discharge}) é um fenômeno natural que pode ser definido como "a rápida e espontânea transferência de carga entre dois corpos em diferentes potenciais elétricos".\cite{esda}
-
-A descarga eletrostática pode pode causar grandes danos a equipamentos eletrônicos \cite{Katsivelis2010} e segundo \citeauthor{Hwang2005}, um terço das falhas em campo de circuitos integrados são decorrentes de ESD e outras falhas conhecidas como sobrecargas elétricas.
-
-Existem 3 principais processos de geração de cargas eletrostáticas:
-\subsubsection{carregamento triboelétrico}
-Causado pela fricção de diferentes materiais e é o método mais usual de geração de cargas eletroestáticas.
-
-O carregamento triboelétrico é causado por um principio de contato e separação dos materiais. Quando dois materiais com propriedades triboelétricas diferentes são colocados em contato e separados, elétrons carregados negativamente são transferidos da superfície de um material para o outro. O material que sofre perda e o que ganha elétrons é definido por suas propriedades triboelétricas\cite{Hwang2005}. 
-
-\subsubsection{indução}
-O processo de indução ocorre quando um objeto condutor mas sem cargas é colocado próximo a um objeto com cargas eletroestáticas. Ao afastar os objetos aquele que não possuía cargas passa a possuir uma carga resultante da somatória algébrica das cargas. A nova carga possui polaridade oposta a do objeto que foi aproximado.
-\subsubsection{condução} 
-A condução ocorre quando há contato entre objetos com diferentes potenciais de tensão. Ao entrarem em contato os objetos irão se balancear eletricamente resultando em objetos com cargas com polaridades iguais.
-
-\subsection{DANOS PROVOCADOS POR DESCARGAS ELETROESTÁTICAS}
-As descargas eletroestáticas podem causar riscos tanto as pessoas quanto a bens e equipamentos.
-Em industrias que lidam com substancias inflamáveis as descargas eletroestáticas podem gerar faíscas e inflamar misturas explosivas. \cite{kassebaum}
-
-De acordo com \citeauthor{Hwang2005}, 58\% das falhas de circuitos integrados baseados em silício e 27\% dos baseados em Gálio-arsênico são decorrentes de ESD e sobrecargas elétricas.
-
-É estimado que as perdas da industria de eletrônicos com descargas eletroestáticas seja de bilhões anualmente. \cite{Hwang2005}
-
-Os custos podem variar de alguns centavos para centenas de reais por componente.
-
-\subsection{MEDIÇÃO DE CARGAS ELETROESTÁTICAS}
-A medição de cargas eletroestáticas pode ser feita através de medidores de tensão que medem a carga em um componente de um componente ou medindo sua curva de descarga.\cite{Berndt2010}
-
-Não existem níveis de aceitação padrão, sendo estes dependentes de cada componente a ser testado.  
 \section{METODOLOGIA}
 
-\hspace*{0.8cm}Serão feitas pesquisas bibliográficas na área de sistemas microprocessados, com foco na arquitetura Arduino, com foco na linguagem C e programação orientada a objetos com foco na linguagem Python\cite{python} que auxilia a criação do servidor de dados e interface web necessária a visualização dos dados. Serão, por fim, feitas pesquisas sobre circuitos de medição de tensão elétrica, aplicados na leitura de sinais dos objetos a serem testados.
-
-Pesquisas de campo serão aplicadas para coletar dados reais em linhas de produção, serão feitas, também, simulações computacionais e reais nas quais se buscará avaliar a confiabilidade dos algoritmos testados, bem como determinar o mais adequado às limitações inerentes à plataforma de trabalho disponível.
-
-A construção do sistema será dividida em três etapas: A primeira etapa será a implementação dos algoritmos de cálculo de medição de cargas eletroestáticas em \textit{Python} utilizando o pacote \textit{Numpy} de analise matemática.\cite{numpy}
-
-A segunda etapa será a implementação de um protótipo utilizando o modulo arduino Uno como base para o esquema eletrônico. O algorítimo de medição desenvolvido na etapa um será transcrito para a linguagem C e embarcado no modulo de medição.  \cite{arduino}
-
-A terceira etapa sera o desenvolvimento de um programa servidor de dados em linguagem Python utilizando os pacotes Django\cite{django} e \textit{Cherry Py}\cite{cherrypy}.
-
-Após a construção do sistema ele será testado em ambientes laboratoriais e apos essa etapa de testes e subsequente correções, serão feitos testes de campo em uma linha de produção.
-
-
-\newpage
-
-\section{CRONOGRAMA}
-
-As atividades de desenvolvimento do projeto seguirão o seguinte cronograma:
-\newpage
-
-\begin{landscape}
-
-\input{CodigoCronograma.tex}
-
-\end{landscape}
+\hspace*{0.8cm}
 
 % ----------------------------------------------------------
 % Referências bibliográficas
@@ -365,28 +284,5 @@ As atividades de desenvolvimento do projeto seguirão o seguinte cronograma:
 %\section{REFERÊNCIAS}
 \renewcommand{\bibname}{REFERÊNCIAS}
 \bibliography{references}
-
-
-% ----------------------------------------------------------
-% Glossário
-% ----------------------------------------------------------
-%
-% Consulte o manual da classe abntex2 para orientações sobre o glossário.
-%
-%\glossary
-
-% ----------------------------------------------------------
-% Apêndices
-% ----------------------------------------------------------
-
-
-% ----------------------------------------------------------
-% Anexos
-% ----------------------------------------------------------
-
-
-%---------------------------------------------------------------------
-% INDICE REMISSIVO
-%---------------------------------------------------------------------
 
 \end{document}

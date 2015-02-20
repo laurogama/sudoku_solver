@@ -1,0 +1,11 @@
+\changetocdepth {4}
+\changetocdepth {3}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{INTRODU\IeC {\c C}\IeC {\~A}O}{4}{chapter*.4}
+\contentsline {section}{\numberline {1}REFERENCIAL TE\IeC {\'O}RICO}{5}{section.0.1}
+\contentsline {section}{\numberline {2}METODOLOGIA}{5}{section.0.2}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{REFER\IeC {\^E}NCIAS}{6}{chapter*.5}
