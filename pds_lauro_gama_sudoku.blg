@@ -13,53 +13,57 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: references.bib
+Warning--entry type for "Mathworks" isn't style-file defined
+--line 17 of file references.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo year vazio ou faltando em Weeks
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-num.bst versão v-1.9.2           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 1 entry,
+You've used 4 entries,
             6706 wiz_defined-function locations,
-            1197 strings with 9356 characters,
-and the built_in function-call counts, 891 in all, are:
-= -- 192
-> -- 0
-< -- 0
-+ -- 46
-- -- 0
-* -- 36
-:= -- 175
-add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 3
-chr.to.int$ -- 1
-cite$ -- 0
-duplicate$ -- 3
-empty$ -- 40
-format.name$ -- 0
-if$ -- 204
+            1212 strings with 9645 characters,
+and the built_in function-call counts, 4687 in all, are:
+= -- 655
+> -- 36
+< -- 115
++ -- 173
+- -- 12
+* -- 239
+:= -- 637
+add.period$ -- 11
+call.type$ -- 4
+change.case$ -- 21
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 429
+empty$ -- 199
+format.name$ -- 60
+if$ -- 946
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 29
+missing$ -- 60
+newline$ -- 23
+num.names$ -- 12
+pop$ -- 105
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 12
 quote$ -- 0
-skip$ -- 80
+skip$ -- 518
 stack$ -- 1
-substring$ -- 49
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 203
+swap$ -- 144
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 2
+warning$ -- 1
+while$ -- 18
 width$ -- 0
-write$ -- 7
+write$ -- 42
+(There were 2 warnings)

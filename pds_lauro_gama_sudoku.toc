@@ -5,7 +5,6 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {section}{INTRODU\IeC {\c C}\IeC {\~A}O}{4}{chapter*.4}
-\contentsline {section}{\numberline {1}REFERENCIAL TE\IeC {\'O}RICO}{5}{section.0.1}
-\contentsline {section}{\numberline {2}METODOLOGIA}{5}{section.0.2}
+\contentsline {section}{\numberline {1}DESENVOLVIMENTO}{5}{section.0.1}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {section}{REFER\IeC {\^E}NCIAS}{6}{chapter*.5}
+\contentsline {section}{REFER\IeC {\^E}NCIAS}{7}{chapter*.5}

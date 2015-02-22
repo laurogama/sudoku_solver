@@ -5,4 +5,21 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem{Pegg}
+\abntrefinfo{Peeg Ed}{PEEG ED}{2006}
+{PEEG ED, J. \emph{Ed Pegg Jr.'s Math Games: Sudoku Variations}. 2006.
+Dispon{\'\i}vel em:
+  \url{http://www.mathpuzzle.com/MAA/41-Sudoku\%20Variations/mathgames\_09\_05\_05.html}.}
+
+\bibitem{Weeks}
+\abntrefinfo{Weeks}{WEEKS}{}
+{WEEKS, M. \emph{{Digital Signal Processing using MATLAB and wavelets}}. [S.l.:
+  s.n.].
+ISBN 0977858200.}
+
+\bibitem{Mathworks}
+\abntrefinfo{Mathworks}{MATHWORKS}{2015}
+{MATHWORKS. 2015.
+Dispon{\'\i}vel em: \url{http://www.mathworks.com/help/matlab/}.}
+
 \end{thebibliography}
